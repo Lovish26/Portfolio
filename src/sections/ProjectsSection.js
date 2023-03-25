@@ -1,10 +1,10 @@
 import React from "react";
 import { BsGithub } from "react-icons/bs";
 import { BiLinkExternal } from "react-icons/bi";
-import blogly from "../assets/blogly.png";
-import natours from "../assets/natours.png";
-import forkify from "../assets/forkify.png";
-import omnifood from "../assets/omnifood.png";
+import blogly from "../assets/blogly.jpg";
+import natours from "../assets/natours.jpg";
+import forkify from "../assets/forkify.jpg";
+import omnifood from "../assets/omnifood.jpg";
 
 const ProjectsSection = () => {
   return (
@@ -34,13 +34,13 @@ const ProjectsSection = () => {
                   boxShadow:
                     "rgba(0, 0, 0, 0.06) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px",
                 }}
-                className="w-[530px] h-[340px] basis-1/2 overflow-hidden"
+                className="w-[530px] h-[340px] basis-1/2 overflow-hidden rounded-xl"
               >
                 <a href="https://blogly.netlify.app/">
                   <img
                     src={blogly}
                     alt="Blogly"
-                    className="  shadow-md rounded-xl object-cover object-top transition-all duration-[12s] hover:-translate-y-[75%] ease-in-out overflow-hidden "
+                    className="  shadow-md  object-cover object-top transition-all duration-[12s] hover:-translate-y-[75%] ease-in-out overflow-hidden "
                   />
                 </a>
               </div>
@@ -105,13 +105,13 @@ const ProjectsSection = () => {
                   boxShadow:
                     "rgba(0, 0, 0, 0.06) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px",
                 }}
-                className="w-[530px] h-[340px] basis-1/2 overflow-hidden"
+                className="w-[530px] h-[340px] basis-1/2 overflow-hidden rounded-xl"
               >
                 <a href="https://natours-5yic.onrender.com/">
                   <img
                     src={natours}
                     alt="Natours"
-                    className="  shadow-md rounded-xl object-cover object-top transition-all duration-[12s] hover:-translate-y-[70%] ease-in-out overflow-hidden "
+                    className="  shadow-md  object-cover object-top transition-all duration-[12s] hover:-translate-y-[68%] ease-in-out overflow-hidden "
                   />
                 </a>
               </div>
@@ -183,13 +183,13 @@ const ProjectsSection = () => {
                   boxShadow:
                     "rgba(0, 0, 0, 0.06) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px",
                 }}
-                className="w-[530px] h-[340px] basis-1/2 overflow-hidden"
+                className="w-[530px] h-[340px] basis-1/2 overflow-hidden rounded-xl"
               >
                 <a href="https://forkify-lovish.netlify.app/">
                   <img
                     src={forkify}
                     alt="forkify"
-                    className="  shadow-md rounded-xl object-cover object-top transition-all duration-[12s] hover:-translate-y-[25%] ease-in-out overflow-hidden "
+                    className="  shadow-md  object-cover object-top transition-all duration-[12s] hover:-translate-y-[22%] ease-in-out overflow-hidden "
                   />
                 </a>
               </div>
@@ -261,13 +261,13 @@ const ProjectsSection = () => {
                   boxShadow:
                     "rgba(0, 0, 0, 0.06) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px",
                 }}
-                className="w-[530px] h-[340px] basis-1/2 overflow-hidden"
+                className="w-[530px] h-[340px] basis-1/2 overflow-hidden rounded-xl"
               >
                 <a href="https://omnifood-lovish.netlify.app/">
                   <img
                     src={omnifood}
                     alt="omnifood"
-                    className="  shadow-md rounded-xl object-cover object-top transition-all duration-[12s] hover:-translate-y-[85%] ease-in-out overflow-hidden "
+                    className="  shadow-md  object-cover object-top transition-all duration-[12s] hover:-translate-y-[83%] ease-in-out overflow-hidden "
                   />
                 </a>
               </div>
