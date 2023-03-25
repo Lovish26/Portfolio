@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+.hero-img {
+  /* background-image: url("https://images.unsplash.com/photo-1536104968055-4d61aa56f46a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80"); */
+  background-image: url("/src/assets/profile-pic.jpg");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 3px solid #111;
+  border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  height: 350px;
+  position: relative;
+  transition: all 1s ease-in-out;
+  min-width: 350px;
+  width: 350px;
+  animation: morph 8s ease-in-out infinite;
+}
+
+@keyframes morph {
+  0% {
+    border-radius: 60% 40% 30% 70%/ 60% 30% 70% 40%;
+  }
+  50% {
+    border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+  }
+  100% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+}
+
+.hero-tech-wrapper > h6 {
+  border-right: 2px solid #111;
+  padding-right: 16px;
+  line-height: 1.8;
+}
+
+.projects-card-container > div:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.small-nav-menu {
+  transition: all 0.2s;
+  display: none;
+}
+.small-nav-menu:hover {
+  color: #147efb;
+}
+
+.small-nav-container {
+  background-color: white;
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.small-nav-links {
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+}
+.small-nav-links > li {
+  transition: all 0.2s;
+}
+.small-nav-links > li:hover {
+  color: #147efb;
+}
+.small-nav-close-btn {
+  position: absolute;
+  right: 16px;
+  top: 16px;
+  transition: all 0.2s;
+}
+.small-nav-close-btn:hover {
+  color: #147efb;
+}
